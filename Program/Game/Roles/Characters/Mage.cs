@@ -15,7 +15,7 @@ namespace Game.Roles.Characters
         private string _choice;
 
         private ICharacterAttack _attack;
-        private Display _display;
+        private IDisplay _display;
 
         public Mage(string name) : base(name, "Mage")
         {

@@ -8,12 +8,12 @@ namespace Game.UI
 {
     public class Display : IDisplay
     {
-        private string _choice;
+        private string _choice { get; set; }
 
         public string ChooseAttack()
         {
-            Console.WriteLine("Chose you attack:");
-            Console.WriteLine("1: Slash:");
+            Console.WriteLine("Chose your attack:");
+            Console.WriteLine("1: Slash");
             Console.WriteLine("2: Fireball");
             Console.WriteLine("3: Arrow");
 

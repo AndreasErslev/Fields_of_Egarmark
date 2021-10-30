@@ -1,8 +1,8 @@
-﻿using System;
-using Game.Roles.Characters;
+﻿using Game.Roles.Characters;
 using Game.Roles.Enemies;
+using System;
 
-namespace Game
+namespace Game.consoleApp
 {
     class Program
     {
@@ -13,7 +13,6 @@ namespace Game
             orc = new Orc();
             CharacterSelect character = new CharacterSelect();
             player = character.ChooseCharacter();
-            
         }
     }
 }
